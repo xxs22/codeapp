@@ -473,7 +473,6 @@
 		942E32082808805F00233441 /* SearchUnsupportedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E32062808805F00233441 /* SearchUnsupportedSection.swift */; };
 		94369AFF25E3B933008419A0 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94369AFE25E3B933008419A0 /* Media.xcassets */; };
 		94369B0125E3B933008419A0 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94369B0025E3B933008419A0 /* ActionRequestHandler.swift */; };
-		94369B0725E3B933008419A0 /* extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 94369AFC25E3B933008419A0 /* extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		94369B1325E3DE02008419A0 /* NodeRunner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94369B1225E3DE02008419A0 /* NodeRunner.mm */; };
 		94369B4A25EAB262008419A0 /* npm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94369B4925EAB175008419A0 /* npm.bundle */; };
 		9437153F26BF9FC3000376FB /* RemoteContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9437153E26BF9FC3000376FB /* RemoteContainer.swift */; };
@@ -510,7 +509,6 @@
 		94801F93266FB5E400B29D80 /* TerminalInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94801F92266FB5E400B29D80 /* TerminalInstance.swift */; };
 		94801F95266FBC3500B29D80 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94801F94266FBC3500B29D80 /* ViewRepresentable.swift */; };
 		948D12002583F20D008F877A /* extraCommandsDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 948D11FE2583F20C008F877A /* extraCommandsDictionary.plist */; };
-		948D12012583F20D008F877A /* commandDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 948D11FF2583F20C008F877A /* commandDictionary.plist */; };
 		948D12222583F2A5008F877A /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D12212583F2A5008F877A /* Executor.swift */; };
 		948D127C2583F734008F877A /* terminal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 948D12202583F24E008F877A /* terminal.bundle */; };
 		948E478226502B6900A6110D /* EditorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948E478126502B6900A6110D /* EditorTab.swift */; };
@@ -589,7 +587,6 @@
 		94A77832257BDC50008FE7B2 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A77831257BDC50008FE7B2 /* SafariView.swift */; };
 		94A77834257BE2D8008FE7B2 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A77833257BE2D8008FE7B2 /* EditorView.swift */; };
 		94A7FFB3268D085300369147 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7FFB2268D085300369147 /* BottomBar.swift */; };
-		94B3D65925F776AA00C4F2B1 /* cacert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 94B3D5D525F776A900C4F2B1 /* cacert.pem */; };
 		94B3D6DE25F77AFE00C4F2B1 /* Library in Resources */ = {isa = PBXBuildFile; fileRef = 94B3D6DD25F77AFE00C4F2B1 /* Library */; };
 		94B3DDF1260344E800C4F2B1 /* Color+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3DDF0260344E700C4F2B1 /* Color+init.swift */; };
 		94B3DDF62604D3ED00C4F2B1 /* tar.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94B3DDF42604D3C400C4F2B1 /* tar.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -726,6 +723,7 @@
 		9FE3E2AA298A169300F63DD0 /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE3E2A9298A169300F63DD0 /* Dynamic */; };
 		9FE3E2AC298A169B00F63DD0 /* SwiftGit2 in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE3E2AB298A169A00F63DD0 /* SwiftGit2 */; };
 		9FE3E2AD298A16A300F63DD0 /* NMSSH.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942E321128093CA600233441 /* NMSSH.xcframework */; };
+		C8010F7E2A2C9D7500DB6A28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 94A4438225A389FF006643FF /* README.md */; };
 		FFD081B82925F8FB001D9373 /* TextEditorWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD081B72925F8FB001D9373 /* TextEditorWithPlaceholder.swift */; };
 		FFD081B92925F8FB001D9373 /* TextEditorWithPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD081B72925F8FB001D9373 /* TextEditorWithPlaceholder.swift */; };
 		FFD081BB29260B00001D9373 /* Libgit2Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD081BA29260B00001D9373 /* Libgit2Error.swift */; };
@@ -790,7 +788,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				94369B0725E3B933008419A0 /* extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1190,7 +1187,7 @@
 		941969282802AB64008AAEB2 /* FTPFileSystemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPFileSystemProvider.swift; sourceTree = "<group>"; };
 		9419692A2802AB88008AAEB2 /* LocalFileSystemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileSystemProvider.swift; sourceTree = "<group>"; };
 		9419692C2803117D008AAEB2 /* InfiniteProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteProgressView.swift; sourceTree = "<group>"; };
-		94196B18280316C7008AAEB2 /* CodeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94196B18280316C7008AAEB2 /* iCoderUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoderUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		941CF5FA2641CBDA001199C0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		941E53B528787D3100561C7E /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		9420698728284027007DE671 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -1539,7 +1536,7 @@
 		942E320328087FA400233441 /* SearchResultsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsSection.swift; sourceTree = "<group>"; };
 		942E32062808805F00233441 /* SearchUnsupportedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUnsupportedSection.swift; sourceTree = "<group>"; };
 		942E321128093CA600233441 /* NMSSH.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NMSSH.xcframework; path = Resources/NMSSH.xcframework; sourceTree = "<group>"; };
-		94369AFC25E3B933008419A0 /* extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		94369AFC25E3B933008419A0 /* iCoderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iCoderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		94369AFE25E3B933008419A0 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		94369B0025E3B933008419A0 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
 		94369B0425E3B933008419A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1553,7 +1550,7 @@
 		9438C9A125CBD25F00335E82 /* EditorKeyboardToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorKeyboardToolBar.swift; sourceTree = "<group>"; };
 		9441129C28217D6A00A8F1D7 /* TerminalProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalProvider.swift; sourceTree = "<group>"; };
 		944112A0282181E500A8F1D7 /* SFTPTerminalServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTPTerminalServiceProvider.swift; sourceTree = "<group>"; };
-		944EEBF02563C381009D77FE /* Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944EEBF02563C381009D77FE /* iCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944EEBF32563C381009D77FE /* CodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeApp.swift; sourceTree = "<group>"; };
 		944EEBF72563C386009D77FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944EEBFA2563C386009D77FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -1722,7 +1719,7 @@
 		9FD5BCFD2929F0F300F20C4B /* EditorProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorProviderManager.swift; sourceTree = "<group>"; };
 		9FD5BD00292A08D600F20C4B /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		9FDAD1B8296EAC3C00E8AEB2 /* SourceControlTemplateSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlTemplateSection.swift; sourceTree = "<group>"; };
-		9FE3E292298A14BC00F63DD0 /* CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE3E292298A14BC00F63DD0 /* iCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE3E294298A14BC00F63DD0 /* CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeUITests.swift; sourceTree = "<group>"; };
 		FFD081B72925F8FB001D9373 /* TextEditorWithPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorWithPlaceholder.swift; sourceTree = "<group>"; };
 		FFD081BA29260B00001D9373 /* Libgit2Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libgit2Error.swift; sourceTree = "<group>"; };
@@ -1867,10 +1864,10 @@
 		944EEBF12563C381009D77FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				944EEBF02563C381009D77FE /* Code.app */,
-				94369AFC25E3B933008419A0 /* extension.appex */,
-				94196B18280316C7008AAEB2 /* CodeUI.app */,
-				9FE3E292298A14BC00F63DD0 /* CodeUITests.xctest */,
+				944EEBF02563C381009D77FE /* iCoder.app */,
+				94369AFC25E3B933008419A0 /* iCoderExtension.appex */,
+				94196B18280316C7008AAEB2 /* iCoderUI.app */,
+				9FE3E292298A14BC00F63DD0 /* iCoderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2699,9 +2696,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9419692E280316C7008AAEB2 /* CodeUI */ = {
+		9419692E280316C7008AAEB2 /* iCoderUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94196B15280316C7008AAEB2 /* Build configuration list for PBXNativeTarget "CodeUI" */;
+			buildConfigurationList = 94196B15280316C7008AAEB2 /* Build configuration list for PBXNativeTarget "iCoderUI" */;
 			buildPhases = (
 				9419693B280316C7008AAEB2 /* ShellScript */,
 				9419693C280316C7008AAEB2 /* Sources */,
@@ -2714,7 +2711,7 @@
 			);
 			dependencies = (
 			);
-			name = CodeUI;
+			name = iCoderUI;
 			packageProductDependencies = (
 				94196931280316C7008AAEB2 /* ZIPFoundation */,
 				94196933280316C7008AAEB2 /* Dynamic */,
@@ -2725,12 +2722,12 @@
 				94206991282CDA78007DE671 /* AppReceiptValidator */,
 			);
 			productName = testfield;
-			productReference = 94196B18280316C7008AAEB2 /* CodeUI.app */;
+			productReference = 94196B18280316C7008AAEB2 /* iCoderUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94369AFB25E3B933008419A0 /* extension */ = {
+		94369AFB25E3B933008419A0 /* iCoderExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94369B0825E3B933008419A0 /* Build configuration list for PBXNativeTarget "extension" */;
+			buildConfigurationList = 94369B0825E3B933008419A0 /* Build configuration list for PBXNativeTarget "iCoderExtension" */;
 			buildPhases = (
 				94369AF825E3B933008419A0 /* Sources */,
 				94369AF925E3B933008419A0 /* Frameworks */,
@@ -2740,14 +2737,14 @@
 			);
 			dependencies = (
 			);
-			name = extension;
+			name = iCoderExtension;
 			productName = extension;
-			productReference = 94369AFC25E3B933008419A0 /* extension.appex */;
+			productReference = 94369AFC25E3B933008419A0 /* iCoderExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		944EEBEF2563C381009D77FE /* Code */ = {
+		944EEBEF2563C381009D77FE /* iCoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 944EEBFF2563C386009D77FE /* Build configuration list for PBXNativeTarget "Code" */;
+			buildConfigurationList = 944EEBFF2563C386009D77FE /* Build configuration list for PBXNativeTarget "iCoder" */;
 			buildPhases = (
 				9455423B27FC410F00DAF941 /* Run Script */,
 				944EEBEC2563C381009D77FE /* Sources */,
@@ -2761,7 +2758,7 @@
 			dependencies = (
 				94369B0625E3B933008419A0 /* PBXTargetDependency */,
 			);
-			name = Code;
+			name = iCoder;
 			packageProductDependencies = (
 				94A7781B257BC452008FE7B2 /* ZIPFoundation */,
 				94A7418B25F74A85007A9728 /* Dynamic */,
@@ -2772,12 +2769,12 @@
 				9420698F282CDA64007DE671 /* AppReceiptValidator */,
 			);
 			productName = testfield;
-			productReference = 944EEBF02563C381009D77FE /* Code.app */;
+			productReference = 944EEBF02563C381009D77FE /* iCoder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FE3E291298A14BC00F63DD0 /* CodeUITests */ = {
+		9FE3E291298A14BC00F63DD0 /* iCoderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FE3E29A298A14BC00F63DD0 /* Build configuration list for PBXNativeTarget "CodeUITests" */;
+			buildConfigurationList = 9FE3E29A298A14BC00F63DD0 /* Build configuration list for PBXNativeTarget "iCoderUITests" */;
 			buildPhases = (
 				9FE3E28E298A14BC00F63DD0 /* Sources */,
 				9FE3E28F298A14BC00F63DD0 /* Frameworks */,
@@ -2789,7 +2786,7 @@
 			dependencies = (
 				9FE3E297298A14BC00F63DD0 /* PBXTargetDependency */,
 			);
-			name = CodeUITests;
+			name = iCoderUITests;
 			packageProductDependencies = (
 				9FE3E29B298A163200F63DD0 /* AppReceiptValidator */,
 				9FE3E29F298A166800F63DD0 /* FilesProvider */,
@@ -2800,7 +2797,7 @@
 				9FE3E2AB298A169A00F63DD0 /* SwiftGit2 */,
 			);
 			productName = CodeUITests;
-			productReference = 9FE3E292298A14BC00F63DD0 /* CodeUITests.xctest */;
+			productReference = 9FE3E292298A14BC00F63DD0 /* iCoderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -2809,6 +2806,7 @@
 		944EEBE82563C381009D77FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -2829,7 +2827,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 944EEBEB2563C381009D77FE /* Build configuration list for PBXProject "Code" */;
+			buildConfigurationList = 944EEBEB2563C381009D77FE /* Build configuration list for PBXProject "iCoder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -2854,10 +2852,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				944EEBEF2563C381009D77FE /* Code */,
-				9419692E280316C7008AAEB2 /* CodeUI */,
-				94369AFB25E3B933008419A0 /* extension */,
-				9FE3E291298A14BC00F63DD0 /* CodeUITests */,
+				944EEBEF2563C381009D77FE /* iCoder */,
+				9419692E280316C7008AAEB2 /* iCoderUI */,
+				94369AFB25E3B933008419A0 /* iCoderExtension */,
+				9FE3E291298A14BC00F63DD0 /* iCoderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -2873,6 +2871,7 @@
 				9419699D280316C7008AAEB2 /* monaco-textmate.bundle in Resources */,
 				9419699E280316C7008AAEB2 /* InfoPlist.strings in Resources */,
 				9419699F280316C7008AAEB2 /* cacert.pem in Resources */,
+				C8010F7E2A2C9D7500DB6A28 /* README.md in Resources */,
 				941969A0280316C7008AAEB2 /* commandDictionary.plist in Resources */,
 				94FF338A2843744C003DE5DD /* FiraCode-Regular.ttf in Resources */,
 				941969A1280316C7008AAEB2 /* ClangLib in Resources */,
@@ -2902,8 +2901,6 @@
 				94A56830257CC3A1008A6530 /* Localizable.strings in Resources */,
 				94A4439025A44CDC006643FF /* monaco-textmate.bundle in Resources */,
 				94252059263E103E0029427A /* InfoPlist.strings in Resources */,
-				94B3D65925F776AA00C4F2B1 /* cacert.pem in Resources */,
-				948D12012583F20D008F877A /* commandDictionary.plist in Resources */,
 				94CF58DF265E51B100CB6A4B /* ClangLib in Resources */,
 				941CF5FB2641CBDA001199C0 /* Settings.bundle in Resources */,
 				948D12002583F20D008F877A /* extraCommandsDictionary.plist in Resources */,
@@ -3280,12 +3277,12 @@
 /* Begin PBXTargetDependency section */
 		94369B0625E3B933008419A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94369AFB25E3B933008419A0 /* extension */;
+			target = 94369AFB25E3B933008419A0 /* iCoderExtension */;
 			targetProxy = 94369B0525E3B933008419A0 /* PBXContainerItemProxy */;
 		};
 		9FE3E297298A14BC00F63DD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9419692E280316C7008AAEB2 /* CodeUI */;
+			target = 9419692E280316C7008AAEB2 /* iCoderUI */;
 			targetProxy = 9FE3E296298A14BC00F63DD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -3326,11 +3323,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Code App.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 87;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CodeApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 69R94YG49H;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = NO;
@@ -3341,14 +3338,16 @@
 					"$(PROJECT_DIR)/Resources/NodeJS",
 				);
 				INFOPLIST_FILE = CodeUI.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = "non-global";
@@ -3372,7 +3371,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Code App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 87;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CodeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 69R94YG49H;
@@ -3387,16 +3386,18 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = CodeUI.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore thebaselab.VS-Code";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -3413,10 +3414,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = NodeExtension/extension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 87;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 69R94YG49H;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3430,8 +3431,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code.extension";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -3450,7 +3451,7 @@
 				CODE_SIGN_ENTITLEMENTS = NodeExtension/extension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 87;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69R94YG49H;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3465,10 +3466,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code.extension";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore thebaselab.VS-Code.extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "NodeExtension/NodeRunner/extension-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -3529,7 +3530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3586,7 +3587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -3605,11 +3606,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Code App.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 87;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CodeApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 69R94YG49H;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTING_SEARCH_PATHS = NO;
@@ -3621,14 +3622,16 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CodeApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = "non-global";
@@ -3651,7 +3654,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Code App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 87;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CodeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 69R94YG49H;
@@ -3667,16 +3670,18 @@
 				GCC_OPTIMIZATION_LEVEL = s;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CodeApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.4.5;
-				PRODUCT_BUNDLE_IDENTIFIER = "thebaselab.VS-Code";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore thebaselab.VS-Code";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "CodeApp/Utilities/Code-Bridging-Header.h";
@@ -3691,18 +3696,24 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69R94YG49H;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = LPLMAD77TT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thebaselab.CodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCoderUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iCoderUI";
 			};
 			name = Debug;
 		};
@@ -3711,25 +3722,31 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69R94YG49H;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = LPLMAD77TT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = thebaselab.CodeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = iCoderLab.iCoderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCoderUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iCoderUI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94196B15280316C7008AAEB2 /* Build configuration list for PBXNativeTarget "CodeUI" */ = {
+		94196B15280316C7008AAEB2 /* Build configuration list for PBXNativeTarget "iCoderUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94196B16280316C7008AAEB2 /* Debug */,
@@ -3738,7 +3755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94369B0825E3B933008419A0 /* Build configuration list for PBXNativeTarget "extension" */ = {
+		94369B0825E3B933008419A0 /* Build configuration list for PBXNativeTarget "iCoderExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94369B0925E3B933008419A0 /* Debug */,
@@ -3747,7 +3764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		944EEBEB2563C381009D77FE /* Build configuration list for PBXProject "Code" */ = {
+		944EEBEB2563C381009D77FE /* Build configuration list for PBXProject "iCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				944EEBFD2563C386009D77FE /* Debug */,
@@ -3756,7 +3773,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		944EEBFF2563C386009D77FE /* Build configuration list for PBXNativeTarget "Code" */ = {
+		944EEBFF2563C386009D77FE /* Build configuration list for PBXNativeTarget "iCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				944EEC002563C386009D77FE /* Debug */,
@@ -3765,7 +3782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FE3E29A298A14BC00F63DD0 /* Build configuration list for PBXNativeTarget "CodeUITests" */ = {
+		9FE3E29A298A14BC00F63DD0 /* Build configuration list for PBXNativeTarget "iCoderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FE3E298298A14BC00F63DD0 /* Debug */,

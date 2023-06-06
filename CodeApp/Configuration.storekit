@@ -7,7 +7,9 @@
 
   ],
   "settings" : {
-    "_compatibilityTimeRate" : 6,
+    "_compatibilityTimeRate" : {
+      "3" : 6
+    },
     "_storefront" : "USA",
     "_timeRate" : 15
   },
@@ -17,7 +19,7 @@
       "localizations" : [
 
       ],
-      "name" : "CodeSubs",
+      "name" : "Example",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -26,11 +28,15 @@
           "codeOffers" : [
 
           ],
-          "displayPrice" : "16.99",
-          "familyShareable" : false,
+          "displayPrice" : "39.99",
+          "familyShareable" : true,
           "groupNumber" : 1,
           "internalID" : "6D791F20",
-          "introductoryOffer" : null,
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "0B467C0B",
+            "paymentMode" : "none"
+          },
           "localizations" : [
             {
               "description" : "Support Code and unlock all themes.",
@@ -38,9 +44,9 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "thebaselab.codeapp.standard",
+          "productID" : "example.icoderapp.standard",
           "recurringSubscriptionPeriod" : "P1Y",
-          "referenceName" : "Code+ Subscription",
+          "referenceName" : "iCoder",
           "subscriptionGroupID" : "5D152015",
           "type" : "RecurringSubscription"
         }
@@ -48,7 +54,7 @@
     }
   ],
   "version" : {
-    "major" : 1,
-    "minor" : 2
+    "major" : 2,
+    "minor" : 0
   }
 }

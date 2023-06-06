@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9419692E280316C7008AAEB2"
-               BuildableName = "CodeUI.app"
-               BlueprintName = "CodeUI"
-               ReferencedContainer = "container:Code.xcodeproj">
+               BuildableName = "iCoderUI.app"
+               BlueprintName = "iCoderUI"
+               ReferencedContainer = "container:iCoder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FE3E291298A14BC00F63DD0"
-               BuildableName = "CodeUITests.xctest"
-               BlueprintName = "CodeUITests"
-               ReferencedContainer = "container:Code.xcodeproj">
+               BuildableName = "iCoderUITests.xctest"
+               BlueprintName = "iCoderUITests"
+               ReferencedContainer = "container:iCoder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9419692E280316C7008AAEB2"
-            BuildableName = "CodeUI.app"
-            BlueprintName = "CodeUI"
-            ReferencedContainer = "container:Code.xcodeproj">
+            BuildableName = "iCoderUI.app"
+            BlueprintName = "iCoderUI"
+            ReferencedContainer = "container:iCoder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9419692E280316C7008AAEB2"
-            BuildableName = "CodeUI.app"
-            BlueprintName = "CodeUI"
-            ReferencedContainer = "container:Code.xcodeproj">
+            BuildableName = "iCoderUI.app"
+            BlueprintName = "iCoderUI"
+            ReferencedContainer = "container:iCoder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

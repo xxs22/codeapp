@@ -12,7 +12,7 @@ import WebKit
 import ios_system
 
 @main
-struct CodeApp: App {
+struct iCodeApp: App {
     @StateObject var AppStore: Store = Store()
     @StateObject var themeManager = ThemeManager()
 
