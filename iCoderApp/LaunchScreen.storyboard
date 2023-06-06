@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="dark"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,18 +14,18 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rxa-ev-Voq">
-                                <rect key="frame" x="0.0" y="1004" width="768" height="20"/>
+                                <rect key="frame" x="0.0" y="814" width="1194" height="20"/>
                                 <color key="backgroundColor" name="statusBar.background"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="Oor-be-HDq"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y4T-3a-cvK">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="1004"/>
+                                <rect key="frame" x="0.0" y="24" width="50" height="790"/>
                                 <color key="backgroundColor" name="activityBar.background"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="dai-9n-Dsh"/>
@@ -48,7 +49,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wff-fw-jKg">
-                                <rect key="frame" x="50" y="0.0" width="718" height="40"/>
+                                <rect key="frame" x="50" y="24" width="1144" height="40"/>
                                 <color key="backgroundColor" name="sideBar.background"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="U7M-Wi-ogz"/>
